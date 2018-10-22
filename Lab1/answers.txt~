@@ -1,0 +1,19 @@
+Jeff Olson
+CS315
+Lab1
+
+Exercies
+
+1) all multiples of 3 will cause the program to halt 
+
+2) 2^51 = 2.25 X 10^15
+
+3) a. f(1000) = 14
+   b. f(2^k) = k
+   c. f((2^k)-1) = 2k - 2
+
+4) Recursively calling the F(n) function for any value n>2 will result in a least one redudant call to F(n). As n moves toward infinity,
+the number of redundant calls grows with each call. When F(10) is called, F(1) will subsequently be called 55 times.
+
+
+5)

@@ -1,0 +1,41 @@
+/*
+Binary Search Tree
+Jeff Olson
+Lab6
+*/
+
+#include <iostream>
+#include <cstdlib>
+#include <fstream>
+#include "BinarySearchTree.h"
+#include <sstream>
+
+using namespace std;
+
+/*
+//tokenizes txt file into vector of strings
+vector <string> MakeLongString (ifstream in)
+{
+	vector <string> Long_String;
+	stringstream S;
+	S << in;
+	string x;
+	while (S >> x) {
+		Long_String.push_back(x);
+	}
+	return Long_String;
+}
+*/
+
+
+int main(int argc, char * argv[])
+{
+	ifstream inFile;
+	inFile.open(argv[1]);
+
+	stringstream S;
+	S << inFile.rdbuf();
+	string text_string = S.str();
+	
+	
+}
