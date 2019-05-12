@@ -1,1 +1,1 @@
-CS 315 directory containing BST, Queue, DFS, BFS, etc. Spring Semester 2018.
+CS 315 directory containing BST/AVL, HashTables, Queue, Heap, Stack. Spring Semester 2018.
